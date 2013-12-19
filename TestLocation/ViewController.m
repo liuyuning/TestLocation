@@ -29,7 +29,9 @@
 }
 
 
-//in entitlements add key com.apple.locationd.preauthorized YES
+//The settings of CoreLocation authorized at "/var/root/Library/Caches/locationd/clients.plist"
+//In entitlements add key "com.apple.locationd.preauthorized" and set "YES"
+
 -(IBAction)actionTest:(id)sender{
     [[MYLocationManager sharedInstance] startTest];
 }
