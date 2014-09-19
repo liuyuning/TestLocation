@@ -4,5 +4,7 @@
 <dict>
 	<key>com.apple.locationd.preauthorized</key>
 	<true/>
+	<key>com.apple.locationd.status</key>
+	<true/>
 </dict>
 </plist>
